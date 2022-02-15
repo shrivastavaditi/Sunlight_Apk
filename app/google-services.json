@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "541117300376",
-    "project_id": "sunlight-aea10",
-    "storage_bucket": "sunlight-aea10.appspot.com"
+    "project_number": "239693237518",
+    "firebase_url": "https://sunlight-341112-default-rtdb.firebaseio.com",
+    "project_id": "sunlight-341112",
+    "storage_bucket": "sunlight-341112.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:541117300376:android:4ed9224ed88793976a9aed",
+        "mobilesdk_app_id": "1:239693237518:android:cc2d34429a1434b69a5b5f",
         "android_client_info": {
           "package_name": "com.example.sunlight"
         }
       },
       "oauth_client": [
         {
-          "client_id": "541117300376-qd6f0idkcof193q4pq5950v5ced683tg.apps.googleusercontent.com",
+          "client_id": "239693237518-humeuf6t5rp0kt1s9deb4c5e8117hfeh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sunlight",
+            "certificate_hash": "85fadb53a8065731e94405796beb866637c805e6"
+          }
+        },
+        {
+          "client_id": "239693237518-ur80eum3ladsclmuhm3seaj0cl3714ma.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDJq1XuGJai2UYZNgrftP3B_moy1qUJ0GQ"
+          "current_key": "AIzaSyB_ZflANelVwlyZG6w9RO4NDOZvGNvMiJE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "541117300376-qd6f0idkcof193q4pq5950v5ced683tg.apps.googleusercontent.com",
+              "client_id": "239693237518-ur80eum3ladsclmuhm3seaj0cl3714ma.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

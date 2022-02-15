@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_card_happy.*
 import kotlinx.android.synthetic.main.activity_card_happy.music_card
 import kotlinx.android.synthetic.main.activity_choose_mood.*
 
-class CardAnger : AppCompatActivity() {
+class CardAnger  : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_card_anger)
