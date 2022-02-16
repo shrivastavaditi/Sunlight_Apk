@@ -53,7 +53,7 @@ class SignUp_Fragement : AppCompatActivity() {
                     Toast.makeText(this, "Password doesn't matched", Toast.LENGTH_SHORT)
                         .show()
                 }
-                !Patterns.EMAIL_ADDRESS.matcher(signup_email.text.toString().trim { it <= ' ' }).matches() -> {
+                !Patterns.EMAIL_ADDRESS.matcher(signup_email.text.toString()).matches() -> {
                     Toast.makeText(applicationContext, "Invalid email address",
                         Toast.LENGTH_SHORT).show()
                 }
@@ -79,6 +79,7 @@ class SignUp_Fragement : AppCompatActivity() {
                                     Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                                 intent.putExtra("UserId", firebaseUser.uid)
                                 intent.putExtra("UserEmail", firebaseUser.email)
+                                intent.putExtra("email", email)
                                 startActivity(intent)
                                 finish()
                             } else {
@@ -89,6 +90,7 @@ class SignUp_Fragement : AppCompatActivity() {
                             }
                         }
                 }
+
 
 
             }
@@ -137,7 +139,9 @@ class SignUp_Fragement : AppCompatActivity() {
             sign_in_button2.visibility = View.VISIBLE
             // Signed in successfully, show authenticated UI.
             val intent = Intent(this,choose_mood::class.java)
+            var email = account.email.toString()
             intent.putExtra(choose_mood.NAME,account.displayName)
+            intent.putExtra("email", email)
             startActivity(intent)
             finish()
 

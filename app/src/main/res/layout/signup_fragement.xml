@@ -108,6 +108,7 @@
                 android:textColorHint="#7C7474"
                 android:textSize="20sp" />
 
+
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/signup_btn"
                 android:layout_width="match_parent"
